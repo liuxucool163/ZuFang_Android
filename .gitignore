@@ -1,0 +1,64 @@
+# Android Build Folders
+build/
+captures/
+.gradle/
+.idea/
+app/*/build/
+app/*/out/
+app/*/production/
+app/*/reports/
+app/*/tmp/
+/*/build/
+/*/out/
+/*/production/
+/*/reports/
+/*/tmp/
+
+# Android Generated Files
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.log
+*.pro
+*.properties
+*.aar
+*.orig
+*.lock
+*.keystore
+*.jks
+
+# Local Gradle Properties
+gradle-local.properties
+local.properties
+
+# IntelliJ IDEA files
+*.iml
+*.iws
+.idea_modules/
+.idea/
+
+# Eclipse files
+*.classpath
+*.project
+.settings/
+
+# Proguard Files
+proguard-rules.pro
+proguard.cfg
+proguard-android-optimize.txt
+proguard-android.txt
+
+# Native Android Libraries
+bin/
+gen/
+libs/
+
+# Google Services (Firebase, GCM) config
+google-services.json
+google-services.p12
+
+# Other Files
+Thumbs.db
+.DS_Store
